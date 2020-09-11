@@ -8,6 +8,21 @@ $gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
 $font_size: 14px;
 $font-stack: 'Raleway', sans-serif;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  @include flexCenter(column);
+}
+
+.content {
+  width: 326 / 375 * 100%;
+}
+
 //frontendmentor
 .attribution {
   font-size: 11px;
