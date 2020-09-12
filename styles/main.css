@@ -14,7 +14,12 @@
   color: #d8d6ff;
 }
 
-.card__logo {
+.card__first {
+  max-width: 350px;
+  max-height: 201px;
+}
+
+.card__first--logo {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin: 40px 41.13px;
