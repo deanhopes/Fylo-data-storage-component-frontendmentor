@@ -1,3 +1,15 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $dark_blue;
+  color: $pale_blue;
+
+  &__logo {
+    align-self: flex-start;
+    margin: 40px 41.13px;
+  }
+}
+
 //frontendmentor
 .attribution {
   font-size: 11px;
