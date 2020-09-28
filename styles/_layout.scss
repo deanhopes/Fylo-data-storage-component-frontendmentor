@@ -10,4 +10,13 @@
     grid-template-rows: repeat(2, 201 / 413 * 100%);
     grid-gap: 16px;
   }
+
+  .topcard {
+    &__container {
+      display: flex;
+      padding: 40px 25px;
+    }
+    &__icon {
+    }
+  }
 }

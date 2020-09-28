@@ -1,20 +1,7 @@
-.card {
-  display: flex;
-  flex-wrap: wrap;
+.topcard,
+.botcard {
   background-color: $dark_blue;
   color: $pale_blue;
-
-  &__first {
-    max-width: 350px;
-    max-height: 201px;
-
-    &--logo {
-      align-self: flex-start;
-      margin: 40px 41.13px;
-    }
-  }
-  &__second {
-  }
 }
 
 //frontendmentor

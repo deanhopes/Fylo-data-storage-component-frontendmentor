@@ -4,25 +4,10 @@
   padding: 0;
 }
 
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.topcard,
+.botcard {
   background-color: #1d2c67;
   color: #d8d6ff;
-}
-
-.card__first {
-  max-width: 350px;
-  max-height: 201px;
-}
-
-.card__first--logo {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  margin: 40px 41.13px;
 }
 
 .attribution {
@@ -60,5 +45,12 @@
   -ms-grid-rows: (48.66828%)[2];
       grid-template-rows: repeat(2, 48.66828%);
   grid-gap: 16px;
+}
+
+.container .topcard__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 25px;
 }
 /*# sourceMappingURL=main.css.map */
