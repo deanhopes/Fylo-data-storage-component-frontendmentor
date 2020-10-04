@@ -18,21 +18,47 @@
     <div class="container">
       <div class="container__content">
         <div class="topcard">
-          <div class="card__container">
-            <img class="card card__logo" src="/images/logo.svg" alt="" />
-            <div class="card__icon">
-              <img src="/images/icon-document.svg" alt="" />
-            </div>
-            <div class="card__icon">
-              <img src="/images/icon-folder.svg" alt="" />
-            </div>
-            <div class="card__icon">
-              <img src="/images/icon-upload.svg" alt="" />
+          <div class="topcard__container">
+            <img id="card__logo" src="/images/logo.svg" alt="" />
+            <div class="topcard__icon">
+              <div class="topcard__icon--square">
+                <img src="/images/icon-document.svg" alt="" />
+              </div>
+              <div class="topcard__icon--square">
+                <img src="/images/icon-folder.svg" alt="" />
+              </div>
+              <div class="topcard__icon--square">
+                <img src="/images/icon-upload.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
         <div class="botcard">
-          You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB
+          <div class="botcard__container">
+            <p class="botcard__ptext">
+              You’ve used
+              <span class="botcard__ptext--boldtext"> 815 GB </span> of your
+              storage
+            </p>
+            <div class="botcard__slider">
+              <div class="slidebar">
+              <div class="slidebar__slider">
+                <div class="slidebar__slider--oval"></div>
+              </div>
+                <div class="slidebar__background"></div>
+              </div>
+                <div class="slidebar__text">
+                  <p>0 GB</p>
+                  <p>1000 GB</p>
+                </div>
+              </div>
+            </div> 
+          </div>
+          </div>
+          <div class="botcard__whitebox">
+            <div class="botcard__whitebox--bold">185</div>
+            <div class="botcard__whitebox--norm">GB Left</div>
+          </div>
         </div>
       </div>
     </div>
