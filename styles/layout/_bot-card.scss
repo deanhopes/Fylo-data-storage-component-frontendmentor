@@ -7,10 +7,11 @@
   padding: 33px 14px;
 
   &__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 98%;
-    padding-left: 16px;
+    display: grid;
+    width: 100%;
+    padding-left: 14px;
+  }
+  &__ptext {
+    justify-self: center;
   }
 }
