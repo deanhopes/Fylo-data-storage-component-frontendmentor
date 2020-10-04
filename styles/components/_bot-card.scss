@@ -5,37 +5,11 @@
 
   &__ptext {
     font-size: 13px;
+    align-self: center;
   }
 
   &__ptext--boldtext {
     font-weight: bold;
-  }
-
-  &__whitebox {
-    top: -9%;
-    height: 72px;
-    width: 179px;
-    background: #ffffff;
-    box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
-    border-radius: 10px;
-    position: relative;
-
-    &--bold {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 40px;
-      line-height: 40px;
-      color: $very_dark_blue;
-    }
-
-    &--norm {
-      font-weight: bold;
-      font-size: 12px;
-      color: hsl(229, 57%, 11%);
-      opacity: 0.5;
-      padding-left: 9px;
-      text-transform: uppercase;
-    }
   }
 
   .slidebar {
@@ -46,7 +20,7 @@
     &__slider {
       grid-area: 1/1;
       height: 14px;
-      width: 193px;
+      width: 193 / 262 * 100%;
       z-index: 10;
       opacity: 100%;
       background: linear-gradient(
@@ -76,7 +50,7 @@
       grid-area: 1/1;
       background: hsl(229, 57%, 11%);
       opacity: 0.5;
-      width: 262px;
+      width: auto;
       height: 20px;
       border-radius: 10px;
     }

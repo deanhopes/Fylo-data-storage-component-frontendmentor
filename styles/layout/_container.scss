@@ -5,6 +5,7 @@
   width: 100vw;
   height: 100vh;
   @include flexCenter(column);
+  padding: 0;
 
   &__content {
     width: 326 / 375 * 100%;
