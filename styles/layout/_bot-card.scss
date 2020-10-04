@@ -1,0 +1,16 @@
+.botcard {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 160px;
+  width: 95%;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 14px;
+  }
+}

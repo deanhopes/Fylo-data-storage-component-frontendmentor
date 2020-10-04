@@ -1,0 +1,14 @@
+&__container {
+  display: grid;
+  grid-template:
+    1fr
+    1fr
+    / 1fr;
+  grid-gap: 25px;
+  padding: 40px 41.43px;
+}
+
+&__icon {
+  display: flex;
+  align-items: center;
+}
