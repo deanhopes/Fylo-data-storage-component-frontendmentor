@@ -1,0 +1,21 @@
+.topcard {
+  border-radius: 10px 100px 10px 10px;
+  box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
+  max-width: 350px;
+  background-color: $dark_blue;
+  color: $pale_blue;
+  max-width: 350px;
+  min-height: 201px;
+
+  &__icon--square {
+    background: $very_dark_blue;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 16.05px;
+    height: 48px;
+    width: 48.15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

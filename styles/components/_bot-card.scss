@@ -1,0 +1,70 @@
+.botcard {
+  background-color: $dark_blue;
+  color: $pale_blue;
+  border-radius: 10px;
+
+  &__ptext {
+    font-size: 14px;
+  }
+
+  &__ptext--boldtext {
+    font-weight: bold;
+  }
+
+  .slidebar {
+    display: grid;
+    align-items: center;
+    grid: 1fr / 1fr;
+
+    &__slider {
+      grid-area: 1/1;
+      height: 14px;
+      width: 72.664%;
+      z-index: 10;
+      opacity: 100%;
+      background: linear-gradient(
+        90deg,
+        hsl(6, 100%, 80%) 0%,
+        hsl(335, 100%, 65%) 100%
+      );
+      border-radius: 8px;
+      margin-left: 3px;
+      display: flex;
+      justify-content: end;
+
+      &--oval {
+        grid-area: 1/1;
+        width: 10px;
+        height: 10px;
+        background: hsl(0, 0%, 100%);
+        z-index: 50;
+        justify-self: end;
+        border-radius: 50%;
+        align-self: center;
+        margin-right: 2px;
+      }
+    }
+
+    &__background {
+      grid-area: 1/1;
+      background: hsl(229, 57%, 11%);
+      opacity: 0.5;
+      width: 98%;
+      height: 20px;
+      border-radius: 10px;
+    }
+
+    &__text {
+      display: grid;
+      grid: 1fr / auto-flow;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-weight: bold;
+      margin: -3px 4px 0px 1px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
