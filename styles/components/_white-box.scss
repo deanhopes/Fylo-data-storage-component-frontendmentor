@@ -1,5 +1,5 @@
 .white-box {
-  top: -6%;
+  top: -10.6%;
   height: 72px;
   width: 179px;
   background: #ffffff;
@@ -12,12 +12,9 @@
   font-family: $font_stack;
 
   &__bold {
-    font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 40px;
-    color: $very_dark_blue;
-    font-family: $font_stack;
   }
 
   &__norm {
@@ -25,7 +22,7 @@
     font-size: 12px;
     color: hsl(229, 57%, 11%);
     opacity: 0.5;
-    padding-left: 9px;
+    padding-left: 13px;
     text-transform: uppercase;
   }
 }
