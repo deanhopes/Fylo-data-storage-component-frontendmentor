@@ -4,11 +4,11 @@
     grid-template: 1fr 1fr / 1fr;
     grid-auto-flow: column;
     grid-gap: 16px;
-    width: 96%;
     max-width: 540px;
     align-items: center;
     padding: 17px 14px;
-    height: 160px;
+    height: 154px;
+    align-self: end;
 
     &__container {
       display: grid;
