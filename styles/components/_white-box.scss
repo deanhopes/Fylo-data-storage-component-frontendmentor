@@ -1,31 +1,33 @@
 .white-box {
-  top: 2%;
-  height: 72px;
-  width: 178px;
-  background: #ffffff;
-  box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: $font_stack;
-  justify-self: center;
-  right: 0.5%;
+  @include respond-to('small') {
+    top: 2%;
+    height: 72px;
+    width: 178px;
+    background: #ffffff;
+    box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font_stack;
+    justify-self: center;
+    right: 0.5%;
 
-  &__bold {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
-    color: $very_dark_blue;
-  }
+    &__bold {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 40px;
+      color: $very_dark_blue;
+    }
 
-  &__norm {
-    font-weight: bold;
-    font-size: 12px;
-    color: hsl(229, 57%, 11%);
-    opacity: 0.5;
-    padding-left: 13px;
-    text-transform: uppercase;
+    &__norm {
+      font-weight: bold;
+      font-size: 12px;
+      color: hsl(229, 57%, 11%);
+      opacity: 0.5;
+      padding-left: 13px;
+      text-transform: uppercase;
+    }
   }
 }
