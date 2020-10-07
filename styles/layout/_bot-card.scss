@@ -22,14 +22,12 @@
     }
   }
   @include respond-to('medium') {
-    display: grid;
-    grid-template: 1fr 1fr / 1fr;
-    grid-auto-flow: column;
-    grid-gap: 16px;
+    display: flex;
+    flex-direction: column;
     max-width: 540px;
-    align-items: center;
-    padding: 17px 14px;
+    align-items: stretch;
     height: 154px;
+    width: 552.4px;
     align-self: end;
 
     &__container {

@@ -76,6 +76,9 @@
 
     &__ptext {
       font-size: 14px;
+      margin-top: 21.9px;
+      justify-self: start;
+      padding: 0px 9px 0px 7px;
     }
 
     &__ptext--boldtext {
@@ -90,7 +93,7 @@
       &__slider {
         grid-area: 1/1;
         height: 14px;
-        width: 73.364%;
+        width: 68.564%;
         z-index: 10;
         opacity: 100%;
         background: linear-gradient(
@@ -99,7 +102,7 @@
           hsl(335, 100%, 65%) 100%
         );
         border-radius: 8px;
-        margin-left: 3px;
+        margin-left: 11.6px;
         display: flex;
         justify-content: end;
 
@@ -120,9 +123,10 @@
         grid-area: 1/1;
         background: hsl(229, 57%, 11%);
         opacity: 0.5;
-        width: 98%;
+        width: 93%;
         height: 20px;
         border-radius: 10px;
+        margin-left: 8px;
       }
 
       &__text {
@@ -131,7 +135,9 @@
         justify-content: space-between;
         margin-top: 10px;
         font-weight: bold;
-        margin: -3px 1px 0px 0px;
+        margin: -6px 1px 0px 0px;
+        width: 93.2%;
+        margin-left: 8px;
 
         p {
           font-size: 12px;
