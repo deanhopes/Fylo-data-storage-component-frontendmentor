@@ -1,20 +1,44 @@
 .botcard {
-  display: flex;
-  flex-direction: column;
-  grid-gap: 16px;
-  width: 96%;
-  align-items: center;
-  padding: 17px 14px;
-  height: 160px;
-
-  &__container {
+  @include respond-to('small') {
     display: grid;
-    width: 100%;
-    padding-left: 18px;
+    grid-template: 1fr 1fr / 1fr;
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    width: 96%;
+    max-width: 540px;
+    align-items: center;
+    padding: 17px 14px;
+    height: 159px;
+
+    &__container {
+      display: grid;
+      width: 100%;
+      padding-left: 18px;
+    }
+    &__ptext {
+      justify-self: center;
+      padding: 0px 7px 0px 3px;
+      align-self: center;
+    }
   }
-  &__ptext {
-    justify-self: center;
-    padding: 0px 9px 0px 3px;
-    align-self: center;
+  @include respond-to('medium') {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    align-items: stretch;
+    height: 154px;
+    width: 552.4px;
+    align-self: end;
+
+    &__container {
+      display: grid;
+      width: 100%;
+      padding-left: 18px;
+    }
+    &__ptext {
+      justify-self: center;
+      padding: 0px 9px 0px 3px;
+      align-self: center;
+    }
   }
 }
