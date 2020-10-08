@@ -528,7 +528,7 @@ body {
   .container {
     background-color: #0c122c;
     background-image: url("/images/bg-desktop.png");
-    background-position: 15% 106.2%;
+    background-position: 16% 100.2%;
     background-size: inherit;
     background-repeat: no-repeat;
     width: 100vw;
@@ -559,7 +559,7 @@ body {
         grid-template: 1fr / 1.48fr 2.2fr;
     height: 201px;
     width: 920px;
-    margin-top: 24px;
+    margin-top: -19px;
   }
 }
 
